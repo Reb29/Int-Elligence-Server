@@ -1,0 +1,10 @@
+[{"mLotName":"A","mMaxCapacity":"60","mCurrentCapacity":"5"},
+{"mLotName":"B","mMaxCapacity":"60","mCurrentCapacity":"10"},
+{"mLotName":"C","mMaxCapacity":"60","mCurrentCapacity":"15"},
+{"mLotName":"D","mMaxCapacity":"60","mCurrentCapacity":"20"},
+{"mLotName":"E","mMaxCapacity":"60","mCurrentCapacity":"25"},
+{"mLotName":"F","mMaxCapacity":"60","mCurrentCapacity":"30"},
+{"mLotName":"G","mMaxCapacity":"60","mCurrentCapacity":"35"},
+{"mLotName":"H","mMaxCapacity":"60","mCurrentCapacity":"40"},
+{"mLotName":"I","mMaxCapacity":"60","mCurrentCapacity":"45"},
+{"mLotName":"J","mMaxCapacity":"60","mCurrentCapacity":"50"}]

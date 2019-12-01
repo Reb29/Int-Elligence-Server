@@ -8,6 +8,19 @@ app.get('/', (req, res) => {
   res.send(txt);
   });
 
+app.get('/images/:name', (req, res) => {
+  var name = req.params.name;
+  var filePath = `${global.__basedir}/images/${name}.jpg`;
+  console.log(filePath);
+  try {
+    if (fs.existsSync(filePath)) {
+      res.sendFile(filePath);
+    }
+  } catch(err) {
+    console.error(err);
+  }
+});
+
 const PORT = process.env.PORT || 7567;
 
 app.listen(PORT, () => {
